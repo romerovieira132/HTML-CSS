@@ -1,0 +1,39 @@
+@charset "uft-8";
+
+/* em HTML id = # em CSS (so pode um elelmento por pagina)
+em HTML class = . em CSS (pode varios elementos)*/
+
+body{
+    background-color:#DB8760;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #222D8F;
+}
+
+h2{
+    color: #8E068F;
+}
+
+h1#principal{
+    text-align: center;
+    color: white;
+    background-color: #31668F;
+}
+
+.basico{
+    color: #8E068F;
+}
+
+.intermediario{
+    color: yellow;
+}
+
+.avancado{
+    color: red;
+}
+
+.destaque{
+    background-color: rgba(128, 128, 128, 0.61);
+}

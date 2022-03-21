@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap');
+        body{
+            font-family: "work sans", Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas: cm, mm, in(polegadas), px,  pt, pc
+            medidas Relativas: em (medida relativa ao tamanho real da fonte com m maiusculo), ex(relativo a altura do x minusculo da fonte), rem, vw, vh, %
+            16px geralmente = 1em, tamanho padra da fonte no navegador
+            */
+            font-size: 1em;
+            font-weight: lighter;
+            /*pesos: lighter, normal, bold, bolder*/
+            font-style: normal;
+            /*estilo da fonte*/
+            text-decoration: underline;
+            /*sublinhado*/
+        }
+        h1{
+            /*font-family: 'work sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+            /*shorthand font (ajuda pra simplificar as tags de cima numa so) =
+            font-style -> font-weight -> font-size -> font-family
+            */
+            font: italic bolder 3em 'work sans', sans-serif;
+        }
+        h2{
+            font: bold 2em 'work sans';
+        }
+    </style>
+</head>  
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ipsam magnam, voluptatum aliquam deserunt placeat nemo. Assumenda eveniet, totam numquam veritatis, unde inventore aliquam cum minus officia voluptates suscipit. Harum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Et esse distinctio aperiam, ipsam amet quia eveniet doloremque iusto velit! Sint labore atque laboriosam omnis voluptas nisi dolor tempore neque voluptatibus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis iure quae quam sit recusandae ratione ullam aliquid voluptatibus iusto rerum? Iste itaque dolores accusamus placeat delectus dolore facilis nulla non!</p>
+    <h2>Substitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sed amet quam tenetur rem aliquam? Accusamus fuga provident dolor nostrum voluptates necessitatibus, itaque assumenda totam, saepe veritatis, sit ratione sint!</p>
+</body>
+</html>
