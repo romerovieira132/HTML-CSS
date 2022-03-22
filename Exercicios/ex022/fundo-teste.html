@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundo teste</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        body{
+            background-color: black;
+        }
+
+        .fundo1{
+            background-color: rgb(255, 255, 255);
+            height: 500px;
+            position: relative;
+
+        }
+
+        .fundo{
+            background-color: rgb(255, 255, 255);
+            height: 40px;
+            position: relative;
+
+        }
+
+        #quad1{
+            
+            position: absolute;
+            color: rgb(0, 0, 0);
+            max-width: 600px;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: justify;
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+
+        #quad2{
+            background-color: white;
+            position: absolute;
+            color: rgb(0, 0, 0);
+            max-width: 600px;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: justify;
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+
+        #foto{
+            background-image: url('imagens/wallpaper002.jpg');
+            background-repeat: no-repeat;
+            height: 600px;
+            background-position: center center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        #foto1{
+            background-image: url('imagens/wallpaper007.webp');
+            background-repeat: no-repeat;
+            height: 600px;
+            background-position: center center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section class="fundo1">
+            <article id="quad1">
+                <h1>Titulo aqui</h1>
+                    
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo ex, error maxime cum consectetur nesciunt veritatis numquam recusandae architecto doloribus repudiandae qui possimus, consequuntur voluptatum quo placeat? Nobis, molestias perferendis.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quia? Voluptatibus temporibus voluptatem recusandae voluptate possimus dolorem quis sapiente expedita voluptatum animi perspiciatis placeat nam dolores modi, qui impedit perferendis.</p>
+            </article>
+        </section>
+        <section id="foto" class="fundo">
+            <article id="quad2">
+                <h1>titulo aqui</h1>
+                    <h2>segundo titulo aqui</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo ex, error maxime cum consectetur nesciunt veritatis numquam recusandae architecto doloribus repudiandae qui possimus, consequuntur voluptatum quo placeat? Nobis, molestias perferendis.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quia? Voluptatibus temporibus voluptatem recusandae voluptate possimus dolorem quis sapiente expedita voluptatum animi perspiciatis placeat nam dolores modi, qui impedit perferendis.</p>
+            </article>
+        </section>
+        <div class="fundo"></div>
+        <div id="foto1"></div>
+        <div class="fundo1"></div>
+    </main>
+</body>
+</html>
